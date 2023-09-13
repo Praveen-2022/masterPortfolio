@@ -3,6 +3,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
@@ -89,20 +90,19 @@ function Footer() {
       <FooterWrapper>
         <Logo>Praveen Kumar Chauhan</Logo>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
-          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHubIcon/>
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Praveen's Presonal Portfolio All rights Reversed @2023 </Copyright>
+        <Copyright>
+          &copy; 2023 Praveen's Presonal Portfolio All rights Reversed @2023{" "}
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

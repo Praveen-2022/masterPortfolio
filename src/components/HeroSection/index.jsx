@@ -13,6 +13,7 @@ import {
   SubTitle,
   ResumeButton,
 } from "./HeroStyle";
+import CV from "../../data/Praveen_Kumar_Chauhan_CV.pdf";
 import HeroImg from "../../images/me.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
@@ -42,9 +43,10 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+            {/* <ResumeButton href={Bio.resume} target="display">
               Check Resume
-            </ResumeButton>
+            </ResumeButton> */}
+            <ResumeButton download href={CV}>Download Resume</ResumeButton>
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
