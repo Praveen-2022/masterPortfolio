@@ -296,7 +296,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Praveen-2022/Movies-X",
-    webapp: "https://builder-resume-four.vercel.app/",
+    webapp: "https://movies-x-six.vercel.app/",
   },
   {
     id: 3,
@@ -308,7 +308,7 @@ export const projects = [
     tags: ["Eslint", "HTML5", "CSS3", "JavaScript"],
     category: "web app",
     github: "https://github.com/Praveen-2022/e-comm-html-",
-    webapp: "https://movies-x-six.vercel.app/",
+    webapp: "https://ecommerceewebsite.vercel.app/",
   },
   {
     id: 4,
