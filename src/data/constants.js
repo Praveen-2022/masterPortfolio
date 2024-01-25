@@ -1,10 +1,9 @@
 import resume from "../images/resume-builder.png";
-import  crypto from "../images/crypto-dashboard.png";
-import ecomm from "../images/e-commerce-website.png";
-import moviesx from "../images/Movis-x.png";
+import crypto from "../images/crypto-dashboard.png";
+import sketchbook from "../images/sketchbook.png";
+import devguruhub from "../images/devguru'shub.png";
+import justwatch from "../images/justwatch.png";
 import bookMyShow from "../images/book_my_show.png";
-
-
 
 export const Bio = {
   name: "Praveen Kumar Chauhan",
@@ -29,6 +28,16 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://pbs.twimg.com/profile_images/1648471227416346625/v84A9gXA_400x400.png",
+      },
+      {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -48,24 +57,14 @@ export const skills = [
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://pbs.twimg.com/profile_images/1648471227416346625/v84A9gXA_400x400.png",
-      },
-      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
         name: "Material UI",
@@ -164,7 +163,7 @@ export const experiences = [
     role: "FullStack Web Developer Traniee",
     company: "Educational institution in Bengaluru",
     date: " Jul 2022 - Present ",
-    desc: "Learn all about technologies which are use in 'MERN' Stack , creating projects likes Resume Builder, BookMyShow, RedBus Clone, IMDB Clone, Threads Clone " ,
+    desc: "Learn all about technologies which are use in 'MERN' Stack , creating projects likes Resume Builder, BookMyShow, RedBus Clone, IMDB Clone, Threads Clone ",
     skills: [
       "JavaScript",
       "TypeScript",
@@ -222,6 +221,49 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Sketchbook",
+    date: "Sep 2023 -Sep 2023",
+    description:
+      "Developed application with Integrated live collaboration feature which is an excali-Draw clone with several feature-like different types of shapes like squares, arrows, lines, write text, draws random lines, images and eraser undo & redo support, changes brushes and pencil stroke, save canvas as picture and responsiveness.",
+    image: sketchbook,
+    tags: ["TypeScript", "Next Js", "Redux", "Tailwind CSS", "Redix UI"],
+    category: "web app",
+    github: "https://github.com/Praveen-2022/the-sketchbook",
+    webapp: "https://praveen-sketchbook.vercel.app",
+  },
+  {
+    id: 1,
+    title: "Just Watch",
+    date: "Nov 2023 -Nov 2023",
+    description:
+      "This React application is a dynamic platform that utilizes the TMDB API to fetch and display detailed information about movies and TV shows. This application provides users with an engaging interface to explore and discover their favorite films and television series. Users can search for specific movies or TV shows using the search filters, enabling them to find content based on criteria such as title, release date and ratings. One of the standout features of the application is the ability to play trailers. Users can watch trailers of movies and TV shows directly within the application.",
+    image: justwatch,
+    tags: [
+      "JavaScript",
+      "TMDB API",
+      "React Js",
+      "TailwindCSS",
+      "React Thunk",
+      "React-Redux",
+    ],
+    category: "web app",
+    github: "https://github.com/Praveen-2022/justwatch",
+    webapp: "https://justwatch-tau.vercel.app",
+  },
+  {
+    id: 2,
+    title: "Dev Guru's Hub",
+    date: "Dec 2023 -Dec 2023",
+    description:
+      "Developed application with Integrated a cutting-edge full-stack web application meticulously crafted to redefine the developer community experience. Rooted in the spirit of collaboration and innovation, this platform aims to be more than just a Q&A space. It’s a dynamic hub where developers, or ‘Guru’s’, converge to share their expertise, seek intelligent answers, and build a thriving community. Integration of the OpenAI API to elevating the quality of answers to a new standard. The AI-powered assistance adopts context, providing users with not just solutions but insightful guidance, making the platform an indispensable resource for tackling intricate coding challenges. MongoDB is used for data storage. Clerk ensures the security remains paramount while delivering a user-friendly experience.",
+    image: devguruhub,
+    tags: ["TypeScript","Next Js","OpenAI API","Radix UI","Tailwind CSS","Mongo DB","Clerk","Zod",],
+    category: "web app",
+    github: "https://github.com/Praveen-2022/Resume-Builder",
+    webapp: "https://builder-resume-four.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Resume-Builder",
     date: "Dec 2022 -Jan 2023",
     description:
@@ -233,7 +275,7 @@ export const projects = [
     webapp: "https://builder-resume-four.vercel.app/",
   },
   {
-    id: 1,
+    id: 4,
     title: "CryptoCurrency-Dashboard",
     date: "Feb 2023 -Feb 2023",
     description:
@@ -245,37 +287,7 @@ export const projects = [
     webapp: "https://cryptocurrency-dashboard-one.vercel.app/",
   },
   {
-    id: 2,
-    title: "Movies-x",
-    date: "Mar 2023 -Mar 2023",
-    description:
-      "This React application is a dynamic platform that utilizes the TMDB API to fetch and display detailed information about movies and TV shows. This application provides users with an engaging interface to explore and discover their favorite films and television series. Users can search for specific movies or TV shows using the search filters, enabling them to find content based on criteria such as title, release date and ratings. One of the standout features of the application is the ability to play trailers. Users can watch trailers of movies and TV shows directly within the application.",
-    image: moviesx,
-    tags: [
-      "TMDB API",
-      "React Js",
-      "TailwindCSS",
-      "REact Thunk",
-      "React Router Dom",
-    ],
-    category: "web app",
-    github: "https://github.com/Praveen-2022/Movies-X",
-    webapp: "https://movies-x-six.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Website",
-    date: "Dec 2022 -Jan 2023",
-    description:
-      "An e-commerce website is an online platform where businesses and consumers engage in buying and selling products and services. It provides a virtual marketplace for a wide range of products, offering convenience and accessibility to shoppers. E-commerce websites typically feature product listings, secure payment processing, shopping carts, and customer reviews. They play a crucial role in modern retail, allowing businesses to reach a global customer base and consumers to shop from the comfort of their homes. Key success factors include user-friendly interfaces, efficient logistics, and robust security measures.",
-    image: ecomm,
-    tags: ["Eslint", "HTML5", "CSS3", "JavaScript"],
-    category: "web app",
-    github: "https://github.com/Praveen-2022/e-comm-html-",
-    webapp: "https://ecommerceewebsite.vercel.app/",
-  },
-  {
-    id: 4,
+    id: 5,
     title: "Ticket Booking Backend",
     date: "June 2023 -July 2023",
     description:
